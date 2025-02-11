@@ -1,13 +1,12 @@
-# Примеры выполненных проектов
+# Completed Projects
 
-В этом репозитории находятся некоторые из выполненных мной проектов в области машинного обучения, аналитики и теории управления. Связаться со мной можно по электронной почте: sakharov.av@phystech.edu
+Here are some of the projects I have completed in the fields of machine learning, data analytics, and control theory.
 
-## Краткое описание проектов
+## Project Overview
 
-| Название проекта | Описание | Используемые библиотеки | 
+| Project Title | Description | Libraries Used |
 | :---------------------- | :---------------------- | :---------------------- |
-| [Разработка алгоритма управления движением автомобиля по заданной траектории](nmpc_trajectory_tracking) | Разработка математической модели автомобиля, а также системы автоматического управления автомобилем с целью проезда по заданной на плоскости траектории методом NMPC (nonlinear model predictive control). | *numpy*, *casadi*, *scipy*, *matplotlib* |
-| [Анализ распределений астероидов в Солнечной системе](astorb) | Исследование распределений астероидов по различным параметрам орбиты по базе данных Лоуэловской обсерватории. Особое внимание уделялось кентаврам и койперовским объектам, среди которых искались астероиды с полярной орбитой. | *pandas*, *matplotlib*, *seaborn* |
-| [Оценка коэффициента восстановление золота из руды](gold_recovery_rate) | Создание прототипа модели машинного обучения для компании, разрабатывающей решения для увеличения эффективности работы промышленных предприятий. Модель предсказывает коэффициент восстановления золота из золотосодержащей руды на основе данных, содержащих параметры добычи и очистки. Качество работы модели определялось по метрике sMAPE. | *pandas*, *numpy*, *sklearn*, *plotly* |
-| [Определение выходной температуры стали](steel_temp_modeling) | Металлургический комбинат поставил задачу уменьшить потребление электроэнергии на этапе обработки стали. Необходимо построить модель, которая предскажет температуру стали на выходе из ковша. Модель должна определять температуру стали на выходе из ковша с заданной точностью по метрике MAE. | *pandas*, *numpy*, *sklearn*, *matplotlib*, *seaborn*, *xgboost*, *catboost* |
-| [Определение токсичности комментариев](nlp_toxic_comments) | Обучение модели, которая будет классифицировать комментарии на позитивные и негативные (токсичные). Исходные данные представлены в виде набора комментариев с разметкой о токсичности правок. В качестве функционала качества берется F1-мера. Для выполнения задачи проводилась лемматизация и векторизация слов процедурой TF-IDF. | *pandas*, *numpy*, *re*, *nltk*, *sklearn*, *xgboost*, *catboost* |
+| [Development of a Vehicle Path Tracking Control Algorithm](nmpc_trajectory_tracking) | Development of a mathematical model for a vehicle and an automatic control system for the vehicle to travel along a predefined trajectory using the NMPC (nonlinear model predictive control) method. | *numpy*, *casadi*, *scipy*, *matplotlib* |
+| [Gold Recovery Rate Estimation from Ore](gold_recovery_rate) | Development of a prototype machine learning model for a company providing solutions to improve industrial efficiency. The model predicts the gold recovery rate from gold-containing ore based on data related to mining and purification processes. Model performance is evaluated using the sMAPE metric. | *pandas*, *numpy*, *sklearn*, *plotly* |
+| [Steel Exit Temperature Prediction](steel_temp_modeling) | A metallurgical plant aimed to reduce electricity consumption during steel processing. A model is required to predict the steel temperature at the ladle exit. The model should predict the temperature with a specified MAE (Mean Absolute Error) precision. | *pandas*, *numpy*, *sklearn*, *matplotlib*, *seaborn*, *xgboost*, *catboost* |
+| [Toxic Comment Detection](nlp_toxic_comments) | Training a model to classify comments as either positive or negative (toxic). The dataset consists of comments labeled with toxicity levels. The F1 score is used as the performance metric. Lemmatization and TF-IDF vectorization were applied to the text data for this task. | *pandas*, *numpy*, *re*, *nltk*, *sklearn*, *xgboost*, *catboost* |
